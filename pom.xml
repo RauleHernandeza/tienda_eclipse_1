@@ -6,4 +6,16 @@
   <packaging>pom</packaging>
   <name>p1</name>
   <description>primer intento</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.tomcat</groupId>
+  		<artifactId>tomcat-jdbc</artifactId>
+  		<version>9.0.35</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.postgresql</groupId>
+  		<artifactId>postgresql</artifactId>
+  		<version>42.2.14</version>
+  	</dependency>
+  </dependencies>
 </project>
